@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>login</title>
+<link href="log.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="wrapper">
+  <header class="page-header">
+    <nav>
+     <img src="images/log.gif" class=logo alt="logo" style="float:left" width="40" height="50">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="squad.html">Squad</a>
+        </li>
+        <li>
+          <a href="kit.html">Kit</a>
+        </li>
+        <li>
+          <a href="contact.html">ContactUs</a>
+        </li>
+      </ul>
+      <button class="cta-contact"><a href="log.html">LOGIN</a></button>
+    </nav>
+  </header>
+ <main class="page-main">
+      </main>
+      <div class="h111">
+  <div style="text-align:center;font-size: 30px;">
+ <h1>Login</h1>
+</div>
+    </div>
+    <div class="login-page">
+   <div class="form">
+    <form class="register">
+      <input type="text" placeholder="username"/>
+        <input type="text" placeholder="email id"/>
+      <input type="text" placeholder="password"/>
+    
+      <button>create</button>
+      <p class="message">Already Registered? <a href="#">Login</a>
+      </p>
+    </form>
+  
+    <form class="login-form">
+      <input type="text" placeholder="username"/>
+      <input type="password" placeholder="password"/>
+      <button>login</button>
+      <p class="message">Not Registered? <a href="#">Register</a></p>
+  </form>
+     </div>
+   </div>
+
+   <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+
+   <script>
+    $('.message a').click(function(){
+    $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+      });
+  </script>
+
+
+  <footer class="page-footer">
+    <small>© Copyright 2019. Sampat Dhakal.</small>
+  </footer>
+</div>
+</body>
+</html>
